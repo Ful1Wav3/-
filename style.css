@@ -1,0 +1,461 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+#video-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  /* Цвет текста, если вы хотите, чтобы он был видимым поверх видео */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #999999;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6bb9f0;
+}
+
+.schedule-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.event {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+о нас body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+
+body
+
+/* Стили для анимации раскрытия и закрытия описания мероприятий */
+.hidden {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+/* Анимация при раскрытии */
+.event .hidden {
+  max-height: 1000px;
+  /* Максимальная высота, до которой раскрывается описание */
+}
+
+.event {
+  background-color: #8ed8a6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.event h2 {
+  color: #345995;
+}
+
+.event .toggle-btn {
+  background-color: #345995;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event .description {
+  margin-top: 10px;
+}
+
+.event .description p {
+  color: #345995;
+}
+
+.event .description img {
+  max-width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.about-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #8ed8a6;
+  /* Зеленый цвет фона */
+  border-radius: 20px;
+  /* Закругление углов */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #345995;
+  /* Голубой цвет заголовка */
+}
+
+.about h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #345995;
+  /* Голубой цвет подзаголовка */
+}
+
+.about p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #333;
+  /* Черный цвет текста */
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ticket {
+  width: calc(33.33% - 20px);
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  /* чтобы изображение не выходило за пределы .ticket */
+  transition: 0.3s;
+  /* добавляем плавный переход для тени */
+}
+
+.ticket h3 {
+  margin-top: 0;
+}
+
+.ticket p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.ticket.green {
+  background-color: #6bb9f0;
+}
+
+.ticket.blue {
+  background-color: #6bb9f0;
+}
+
+.ticket.golden {
+  background-color: #6bb9f0;
+}
+
+.ticket:hover {
+  transform: scale(1.05);
+  background-image: url(https://images.wallpaperscraft.ru/image/single/dzhungli_les_liany_174400_300x188.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 50px rgba(7, 7, 7, 7.7);
+  /* небольшое увеличение при наведении */
+}
+
+.ticket::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url('C:\Users\Админ\Videos\1616070475_3-p-dzhungli-krasivie-foto-4.jpg');
+  background-size: cover;
+  opacity: 0.7;
+  /* уменьшаем прозрачность, чтобы было читаемо */
+  transition: opacity 0.3s;
+  /* добавляем плавный переход */
+  border-radius: 10px;
+}
+
+.ticket:hover::after {
+  opacity: 1;
+  /* полная непрозрачность при наведении */
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.animal {
+  border: 1px solid #555;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.animal img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description {
+  padding: 10px;
+  background-color: #8ed8a6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.animal {
+  border: 1px solid #555;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.animal img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description {
+  padding: 10px;
+  background-color: #8ed8a6;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animal {
+  margin-bottom: 20px;
+}
+
+.animal img {
+  width: 1000px;
+  height: auto;
+}
+
+.description {
+  text-align: center;
+}
+
+/* Скрытая часть */
+.hidden {
+  display: none;
+  transition: opacity 0.5s ease;
+}
+
+/* Показать скрытую часть при активации класса 'expanded' */
+.expanded .hidden {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
